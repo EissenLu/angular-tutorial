@@ -12,4 +12,14 @@ export class HeroesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
+  
+}
+
+export interface Hero {
+  id: number;
+  name: string;
 }
